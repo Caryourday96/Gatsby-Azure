@@ -14,10 +14,17 @@ const SecondPage = () => ( <
     <
     h1 > Hi from the second page < /h1> <
     p > Welcome to page 2 < /p> <
-    a href = { downloadFile }
-    download > Kayode 1 < /a> <
-    a href = { downloadFile1 }
-    download > Kayode 2 < /a>
+    p > < a href = { downloadFile }
+    download > Kayode 1 < /a></p >
+
+    <
+    br / >
+    <
+    p > < a href = { downloadFile1 }
+    download > Kayode 2 < /a> </p >
+
+    <
+    br / >
 
     <
     Link to = "/" > Go back to the homepage < /Link> <
